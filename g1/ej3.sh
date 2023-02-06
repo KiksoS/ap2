@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 win=0;
 pro1=0;

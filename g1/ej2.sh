@@ -5,7 +5,7 @@ par=0;
 
 while read linea; do 
 
-    if  ((linea % 2 == 0)); then 
+    if  [ $((linea % 2)) == 0 ]; then 
 
         echo $linea >> par.txt
         ((par++));
